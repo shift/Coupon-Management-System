@@ -19,7 +19,7 @@ services:
      - ../../../../.:/go
   db:
     # Pull the pre-built image from docker hub
-    image: mysql:8.0.19
+    image: mysql:8.0.33
     # Expose port 5000 externally and map it to default port of MySQL server
     ports:
       - "5000:3306"
