@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	api "github.com/prajwalnayak7/Coupon-Management-System/api"
+	api "github.com/shift/Coupon-Management-System/api"
 )
 
 type key int
